@@ -1,1 +1,1 @@
-# psychic
+# React Native Boiler Plate with Design and Redux Thunk

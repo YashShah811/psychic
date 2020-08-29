@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Wixnet",
+    "slug": "wixnet",
+    "description": "Wixnet Psychic",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#d90746"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "app/assets/*"
+    ],
+    "android": {
+      "package": "com.universal.wixnet"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.universal.wixnet"
+    }
+  }
+}
