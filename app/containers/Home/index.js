@@ -285,7 +285,10 @@ class Home extends React.Component {
                     <Text style={styles.pricetitle}>{item.text_rate} Cr/Msg</Text>
                     <Row>
                       <Col>
-                        <TouchableOpacity style={styles.livechat} onPress={() => item.status == 'Online' ? this.Call(item.socketId, item.live_rate) : showToast(item.name+' is offline, can not make call', 'danger')}>
+                        {/* <TouchableOpacity style={styles.livechat} onPress={() => item.status == 'Online' ? this.Call(item.socketId, item.live_rate) : showToast(item.name+' is offline, can not make call', 'danger')}>
+                          <Text style={styles.iconstitle}>LIVE CHAT</Text>
+                        </TouchableOpacity> */}
+                        <TouchableOpacity style={styles.livetext} onPress={() => this.Messages(item.socketId, item.id, item.name, item.text_rate)}>
                           <Text style={styles.iconstitle}>LIVE CHAT</Text>
                         </TouchableOpacity>
                       </Col>
